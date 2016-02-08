@@ -1,0 +1,59 @@
+html, body {
+    height: 100%;
+}
+
+.container-main {
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.page-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 46px;
+}
+
+.table-container {
+    max-height: 50%;
+    overflow: auto;
+    margin: 20px 0;
+}
+
+tr.red td {
+    background-color: #ffe5e5;
+}
+
+tr.green td {
+    background-color: #e5ffe5;
+}
+
+nav {
+    position: absolute;
+    bottom: 10px;
+    width: 90%;
+    text-align: center;
+}
+
+.input-group.date {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.right {
+    float: right;
+}
+
+@media only screen and (max-width: 800px) {
+    .container-main {
+        width: 100%;
+    }
+}
